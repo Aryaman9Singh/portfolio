@@ -1,0 +1,329 @@
+[
+  {
+    "slug": "pet-app",
+    "title": "Pet App",
+    "tagline": "A Mobile webb application, Developed with the sole purpose of the fascination for 4- legged furry homies.",
+    "profiles": ["recruiter-hr"],
+    "poster": "https://cdn.dribbble.com/userupload/3885718/file/original-1e90543e344abee4e8ae2ea4e986fc80.jpg?resize=1504x1128&vertical=center",
+    "badges": ["React Native", "Mobile App", "React", "Firebase", "Redux", "React Hooks", "Javascript", "Java"],
+    "featuredFor": ["recruiter-hr"]
+  },
+  {
+    "slug": "shoe-app",
+    "title": "Shoe Wep App",
+    "tagline": "Developed using React, just for the love of the game and for Shoes, This was my first project ever developed using React to get a better grasp of React and vaious sneaker sizes in use.",
+    "profiles": ["recruiter-hr"],
+    "poster": "https://cdn.dribbble.com/userupload/2763983/file/original-dc7db332ef10c7b7f3a1efa7f3464b81.png?resize=1504x1128&vertical=center",
+    "badges": ["React", "React Hooks", "Redux", "Web - Application", "Typescript"]
+  },
+  {
+    "slug": "coolggi",
+    "title": "Coolggi",
+    "tagline": "Gamified crypto engine with leaderboards and rewards. Coolggi was a doggo inspired crypto token website, developed to reaise funds and awareness regarding Cancer patients and families. ",
+    "profiles": ["recruiter-hr"],
+    "poster": "https://picsum.photos/seed/referral-rocket//640/360",
+    "badges": ["Gamification", "Dashboards", "Automation"]
+  },
+  {
+    "slug": "interview-studio",
+    "title": "Interview Studio",
+    "tagline": "Structured interviews with calibrated question banks.",
+    "profiles": ["recruiter-hr"],
+    "poster": "https://picsum.photos/seed/interview-studio/640/360",
+    "badges": ["Calibration", "Question Bank", "Analytics"]
+  },
+  {
+    "slug": "campus-hub",
+    "title": "Campus Hub",
+    "tagline": "University pipeline tracking and event coordination.",
+    "profiles": ["recruiter-hr"],
+    "poster": "https://picsum.photos/seed/campus-hub/640/360",
+    "badges": ["Events", "Pipeline", "CRM"]
+  },
+  {
+    "slug": "recruiter-showcase",
+    "title": "Recruiter Showcase",
+    "tagline": "Fast-scan portfolio for hiring managers.",
+    "profiles": ["recruiter-hr"],
+    "poster": "https://picsum.photos/seed/recruiter-showcase/640/360",
+    "badges": ["Impact-first", "Readable", "ATS-friendly"]
+  },
+  {
+    "slug": "diversity-lens",
+    "title": "Diversity Lens",
+    "tagline": "Diverse funnel visibility with anonymized screening.",
+    "profiles": ["recruiter-hr"],
+    "poster": "https://picsum.photos/seed/diversity-lens/640/360",
+    "badges": ["Anonymize", "Funnel", "Compliance"]
+  },
+  {
+    "slug": "brand-briefcase",
+    "title": "Brand Briefcase",
+    "tagline": "Employer-brand microsites for roles and teams.",
+    "profiles": ["recruiter-hr"],
+    "poster": "https://picsum.photos/seed/brand-briefcase/640/360",
+    "badges": ["Microsites", "Storytelling", "SEO"]
+  },
+  {
+    "slug": "joining-journey",
+    "title": "Joining Journey",
+    "tagline": "Offer-to-day-one task orchestration for new hires.",
+    "profiles": ["recruiter-hr"],
+    "poster": "https://picsum.photos/seed/joining-journey/640/360",
+    "badges": ["Onboarding", "E-Docs", "Checklists"]
+  },
+  {
+    "slug": "talent-insights-board",
+    "title": "Talent Insights Board",
+    "tagline": "Live dashboards for funnel health and recruiter KPIs.",
+    "profiles": ["recruiter-hr"],
+    "poster": "https://picsum.photos/seed/talent-insights/640/360",
+    "badges": ["Dashboards", "KPIs", "Benchmarks"]
+  },
+
+  {
+    "slug": "carwash-system",
+    "title": "Car-Wash Microservices",
+    "tagline": "Booking, queue, payments with observability.",
+    "profiles": ["engineering"],
+    "poster": "https://picsum.photos/seed/carwash/640/360",
+    "badges": ["Spring Boot", "Kafka", "Grafana"],
+    "featuredFor": ["engineering"]
+  },
+  {
+    "slug": "neural-muse",
+    "title": "Neural Muse",
+    "tagline": "AI songwriting assistant that adapts to your style.",
+    "profiles": ["engineering"],
+    "poster": "https://picsum.photos/seed/neural-muse/640/360",
+    "badges": ["OpenAI", "React", "Realtime"]
+  },
+  {
+    "slug": "chrono-api",
+    "title": "Chrono API",
+    "tagline": "Time-series analytics for IoT streams.",
+    "profiles": ["engineering"],
+    "poster": "https://picsum.photos/seed/chrono-api/640/360",
+    "badges": ["Kafka", "InfluxDB", "TSDB"]
+  },
+  {
+    "slug": "aether-mail",
+    "title": "Aether Mail",
+    "tagline": "Privacy-first IMAP client built with React.",
+    "profiles": ["engineering"],
+    "poster": "https://picsum.photos/seed/aether-mail/640/360",
+    "badges": ["IMAP", "OAuth2", "Hooks"]
+  },
+  {
+    "slug": "mindboard",
+    "title": "MindBoard",
+    "tagline": "Collaborative whiteboard with AI notes.",
+    "profiles": ["engineering"],
+    "poster": "https://picsum.photos/seed/mindboard/640/360",
+    "badges": ["WebRTC", "Summarizer", "Realtime"]
+  },
+  {
+    "slug": "aura-analytics",
+    "title": "Aura Analytics",
+    "tagline": "Drag-and-drop BI dashboards for any dataset.",
+    "profiles": ["engineering"],
+    "poster": "https://picsum.photos/seed/aura-analytics/640/360",
+    "badges": ["D3.js", "ETL", "BI"]
+  },
+  {
+    "slug": "pulsepay",
+    "title": "PulsePay",
+    "tagline": "Tap-to-pay wallet with biometric auth.",
+    "profiles": ["engineering"],
+    "poster": "https://picsum.photos/seed/pulsepay/640/360",
+    "badges": ["Fintech", "Biometrics", "Kotlin"]
+  },
+  {
+    "slug": "orbit-note",
+    "title": "Orbit Note",
+    "tagline": "Offline-first notes with conflict-free sync.",
+    "profiles": ["engineering"],
+    "poster": "https://picsum.photos/seed/orbit-note/640/360",
+    "badges": ["CRDT", "Sync", "Markdown"]
+  },
+  {
+    "slug": "api-gateway-shield",
+    "title": "API Gateway Shield",
+    "tagline": "Rate-limit, auth, and edge caching for microservices.",
+    "profiles": ["engineering"],
+    "poster": "https://picsum.photos/seed/api-gateway/640/360",
+    "badges": ["Gateway", "JWT", "Edge Cache"]
+  },
+  {
+    "slug": "schema-vault",
+    "title": "Schema Vault",
+    "tagline": "Versioned JSON/XSD registry with lint & diff.",
+    "profiles": ["engineering"],
+    "poster": "https://picsum.photos/seed/schema-vault/640/360",
+    "badges": ["DevTools", "Versioning", "Diff"]
+  },
+
+  {
+    "slug": "safecloud",
+    "title": "SafeCloud",
+    "tagline": "Zero-knowledge encrypted storage (S3 compatible).",
+    "profiles": ["cloud-reliability"],
+    "poster": "https://picsum.photos/seed/safecloud/640/360",
+    "badges": ["Encryption", "S3", "DevSecOps"],
+    "featuredFor": ["cloud-reliability"]
+  },
+  {
+    "slug": "meta-grid",
+    "title": "Meta Grid",
+    "tagline": "Distributed compute for heavy data jobs.",
+    "profiles": ["cloud-reliability"],
+    "poster": "https://picsum.photos/seed/meta-grid/640/360",
+    "badges": ["Kubernetes", "Autoscale", "Batch"]
+  },
+  {
+    "slug": "volt-dashboard",
+    "title": "Volt Dashboard",
+    "tagline": "Smart-grid analytics and peak alerts.",
+    "profiles": ["cloud-reliability"],
+    "poster": "https://picsum.photos/seed/volt-dashboard/640/360",
+    "badges": ["IoT", "Prometheus", "Alerts"]
+  },
+  {
+    "slug": "uptime-sentinel",
+    "title": "Uptime Sentinel",
+    "tagline": "SLOs, burn-rates, and error budgets in one pane.",
+    "profiles": ["cloud-reliability"],
+    "poster": "https://picsum.photos/seed/uptime-sentinel/640/360",
+    "badges": ["SRE", "SLO", "Error Budgets"]
+  },
+  {
+    "slug": "cost-optimizer",
+    "title": "Cost Optimizer",
+    "tagline": "Rightsizing and savings plans with ML hints.",
+    "profiles": ["cloud-reliability"],
+    "poster": "https://picsum.photos/seed/cost-optimizer/640/360",
+    "badges": ["FinOps", "Anomaly", "ML"]
+  },
+  {
+    "slug": "deploy-wizard",
+    "title": "Deploy Wizard",
+    "tagline": "Blue/green + canary with metrics guardrails.",
+    "profiles": ["cloud-reliability"],
+    "poster": "https://picsum.photos/seed/deploy-wizard/640/360",
+    "badges": ["CD", "Canary", "Rollbacks"]
+  },
+  {
+    "slug": "multi-cloud-mesh",
+    "title": "Multi-Cloud Mesh",
+    "tagline": "Service mesh across AWS/GCP/Azure.",
+    "profiles": ["cloud-reliability"],
+    "poster": "https://picsum.photos/seed/multicloud-mesh/640/360",
+    "badges": ["Service Mesh", "mTLS", "Traffic"]
+  },
+  {
+    "slug": "policy-as-code",
+    "title": "Policy as Code",
+    "tagline": "OPA-based guardrails for infra and apps.",
+    "profiles": ["cloud-reliability"],
+    "poster": "https://picsum.photos/seed/policy-as-code/640/360",
+    "badges": ["OPA", "CIS Bench", "IaC"]
+  },
+  {
+    "slug": "incident-commander",
+    "title": "Incident Commander",
+    "tagline": "Runbooks, pager, and retrospective tooling.",
+    "profiles": ["cloud-reliability"],
+    "poster": "https://picsum.photos/seed/incident-commander/640/360",
+    "badges": ["Incidents", "Runbooks", "Retro"]
+  },
+  {
+    "slug": "traffic-sculptor",
+    "title": "Traffic Sculptor",
+    "tagline": "Progressive delivery with shadow traffic and MIRROR.",
+    "profiles": ["cloud-reliability"],
+    "poster": "https://picsum.photos/seed/traffic-sculptor/640/360",
+    "badges": ["Istio", "Shadow", "A/B"]
+  },
+
+  {
+    "slug": "playground-utils",
+    "title": "Playground Utilities",
+    "tagline": "Small tools & experiments for dev velocity.",
+    "profiles": ["playground"],
+    "poster": "https://picsum.photos/seed/playground-utils/640/360",
+    "badges": ["CLI", "Snippets", "DX"],
+    "featuredFor": ["playground"]
+  },
+  {
+    "slug": "dreamforge",
+    "title": "DreamForge",
+    "tagline": "Procedural world generator for web games.",
+    "profiles": ["playground"],
+    "poster": "https://picsum.photos/seed/dreamforge/640/360",
+    "badges": ["Three.js", "WebGL", "Noise"]
+  },
+  {
+    "slug": "astrogram",
+    "title": "Astrogram",
+    "tagline": "Social sky maps with telescope sharing.",
+    "profiles": ["playground"],
+    "poster": "https://picsum.photos/seed/astrogram/640/360",
+    "badges": ["GraphQL", "Expo", "Firebase"]
+  },
+  {
+    "slug": "pixel-lab",
+    "title": "Pixel Lab",
+    "tagline": "In-browser image editor with layers & masks.",
+    "profiles": ["playground"],
+    "poster": "https://picsum.photos/seed/pixel-lab/640/360",
+    "badges": ["Canvas", "WASM", "Filters"]
+  },
+  {
+    "slug": "zen-budget",
+    "title": "Zen Budget",
+    "tagline": "Minimalist expense tracker that learns you.",
+    "profiles": ["playground"],
+    "poster": "https://picsum.photos/seed/zen-budget/640/360",
+    "badges": ["PWA", "Patterns", "DataViz"]
+  },
+  {
+    "slug": "motion-cookbook",
+    "title": "Motion Cookbook",
+    "tagline": "Micro-interactions library for React apps.",
+    "profiles": ["playground"],
+    "poster": "https://picsum.photos/seed/motion-cookbook/640/360",
+    "badges": ["Framer Motion", "UX", "Hooks"]
+  },
+  {
+    "slug": "palette-pro",
+    "title": "Palette Pro",
+    "tagline": "Brand palette learner + color utilities.",
+    "profiles": ["playground"],
+    "poster": "https://picsum.photos/seed/palette-pro/640/360",
+    "badges": ["Chrome API", "Design", "UX"]
+  },
+  {
+    "slug": "sound-stitch",
+    "title": "Sound Stitch",
+    "tagline": "Loop-based music maker in the browser.",
+    "profiles": ["playground"],
+    "poster": "https://picsum.photos/seed/sound-stitch/640/360",
+    "badges": ["WebAudio", "Sequencer", "MIDI"]
+  },
+  {
+    "slug": "doc-diffx",
+    "title": "Doc-DiffX",
+    "tagline": "Visual document differ with semantic highlights.",
+    "profiles": ["playground"],
+    "poster": "https://picsum.photos/seed/doc-diffx/640/360",
+    "badges": ["Diff", "OpenXML", "PDF"]
+  },
+  {
+    "slug": "tiny-saas-starter",
+    "title": "Tiny SaaS Starter",
+    "tagline": "Auth, billing, emails—launch in a weekend.",
+    "profiles": ["playground"],
+    "poster": "https://picsum.photos/seed/tiny-saas/640/360",
+    "badges": ["Stripe", "Auth", "Boilerplate"]
+  }
+]

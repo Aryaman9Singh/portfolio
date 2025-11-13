@@ -1,13 +1,68 @@
-body {
+/* --- Global Reset & Defaults --- */
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body,
+#root {
+  height: 100%;
+  background: #000;
+}
+
+/* --- Global Font Variables --- */
+:root {
+  --font-display: "Pacifico", cursive;
+  --font-body: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* --- Base Body Style --- */
+body {
+  font-family: var(--font-body);
+  color: #fff;
+  background: #000;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+/* --- Headings & Display Text --- */
+h1,
+h2,
+.display-font {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-body);
+  font-weight: 600;
+}
+
+/* --- Smooth Transitions --- */
+button,
+a,
+img,
+div {
+  transition: all 200ms ease-in-out;
+}
+
+/* --- Scrollbars --- */
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
 }

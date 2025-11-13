@@ -1,0 +1,203 @@
+/* Page & shell */
+.about-page {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(229, 9, 20, 0.22), transparent 55%),
+    linear-gradient(to bottom, #050505, #000);
+  color: #f5f5f5;
+  padding: 72px 0 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-shell {
+  width: min(1120px, 100%);
+  padding: 0 16px;
+  display: grid;
+  gap: 40px;
+}
+
+/* Generic card */
+.about-card {
+  border-radius: 18px;
+  border: 1px solid rgba(120, 120, 120, 0.5);
+  background: rgba(18, 18, 18, 0.96);
+  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.85);
+  overflow: hidden;
+}
+
+/* Section label */
+.about-section-label {
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 4px;
+}
+
+/* Pill */
+.about-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(200, 200, 200, 0.6);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Small chip button / badge */
+.about-chip {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(15, 15, 15, 0.95);
+  border: 1px solid rgba(150, 150, 150, 0.7);
+  font-size: 12px;
+}
+
+/* Gradient divider */
+.about-divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(200, 200, 200, 0.7),
+    transparent
+  );
+  opacity: 0.7;
+}
+
+/* HERO layout */
+.about-hero {
+  position: relative;
+  padding: 22px 22px 18px;
+}
+
+.about-hero-bg {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to top, rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.2)),
+    url("https://picsum.photos/seed/aryaman-city/1600/640");
+  background-size: cover;
+  background-position: center;
+  filter: blur(0.6px);
+  pointer-events: none;
+}
+
+.about-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.96),
+    rgba(0, 0, 0, 0.45) 50%,
+    rgba(0, 0, 0, 0.96)
+  );
+  pointer-events: none;
+}
+
+.about-hero-inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+
+/* Two-column generic layout */
+.about-two-col {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: 22px;
+  align-items: stretch;
+}
+
+/* Simple two-column split (now/next vs fun stuff) */
+.about-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.1fr);
+  gap: 20px;
+}
+
+/* Travel row */
+.about-travel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.about-travel-row {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.about-travel-card {
+  flex: 0 0 auto;
+  width: min(260px, 70vw);
+  border-radius: 14px;
+  overflow: hidden;
+  background: #050505;
+  border: 1px solid rgba(160, 160, 160, 0.7);
+}
+
+/* Timeline grid */
+.about-timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.about-timeline-card {
+  border-radius: 14px;
+  padding: 10px 10px;
+  background: rgba(12, 12, 12, 0.98);
+  border: 1px solid rgba(170, 170, 170, 0.7);
+  font-size: 13px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .about-page {
+    padding: 70px 0 32px;
+  }
+
+  .about-shell {
+    gap: 28px;
+  }
+
+  .about-hero {
+    padding: 18px 14px 14px;
+  }
+
+  .about-hero-inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .about-two-col,
+  .about-split {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .about-travel-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .about-travel-card {
+    width: min(220px, 70vw);
+  }
+}
