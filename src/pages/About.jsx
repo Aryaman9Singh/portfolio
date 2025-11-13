@@ -730,7 +730,7 @@ export default function About() {
               ✉️ Email
             </a>
             <a
-              href="#"
+            href="https://www.linkedin.com"
               className="about-chip"
               style={{ textDecoration: "none" }}
               target="_blank"
@@ -739,7 +739,7 @@ export default function About() {
               🔗 LinkedIn
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com"
               className="about-chip"
               style={{ textDecoration: "none" }}
               target="_blank"

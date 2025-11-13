@@ -74,7 +74,6 @@ export default function Home() {
     // subscribe to future changes
     const unsubscribe = onListChange(update);
     return () => {
-      // if onListChange returns a cleanup fn, call it
       if (typeof unsubscribe === "function") unsubscribe();
     };
   }, [slug]);
@@ -88,11 +87,6 @@ export default function Home() {
   // Featured pick
   const featured =
     visible.find((p) => p.featuredFor?.includes(slug)) || visible[0];
-
-  // More (excluding featured)
-  const more = featured
-    ? visible.filter((p) => p.slug !== featured.slug)
-    : visible.slice(1);
 
   // My List (for this profile) – derived from myListSlugs
   const myList = useMemo(
