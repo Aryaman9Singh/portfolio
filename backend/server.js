@@ -1,4 +1,3 @@
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 import express from "express";
 import cors from "cors";
@@ -40,18 +39,17 @@ app.post("/summarize-text", async (req, res) => {
     console.log("Received text:", text);
 
     const response = await client.chat.completions.create({
-      model: "gpt-4.1-mini",
+      model: "gpt-4o-mini",   // FIXED MODEL NAME
       messages: [
         {
           role: "system",
-          content:
-            "You are a helpful assistant that summarizes text clearly and concisely.",
+          content: "Summarize this text clearly and concisely."
         },
         {
           role: "user",
-          content: text,
-        },
-      ],
+          content: text
+        }
+      ]
     });
 
     const summary = response.choices?.[0]?.message?.content;
@@ -69,6 +67,7 @@ app.post("/summarize-text", async (req, res) => {
     res.status(500).json({ error: "Failed to summarize text" });
   }
 });
+
 
 // Start server
 const PORT = process.env.PORT || 5000;
