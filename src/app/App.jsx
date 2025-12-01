@@ -6,9 +6,13 @@ import ProfilePicker from "../components/profile/ProfilePicker.jsx";
 import Home from "../pages/Home.jsx";
 import About from "../pages/About.jsx"; // ⬅️ About Me page
 
+
 export default function App() {
   // splash shows for 1s on every refresh (same as before)
   const [showSplash, setShowSplash] = useState(true);
+  
+  
+
 
   useEffect(() => {
     const t = setTimeout(() => setShowSplash(false), 1000);

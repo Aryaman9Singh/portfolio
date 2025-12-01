@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "./about.css";
+import ChatBotButton from "../components/chatbot/ChatBotButton";
+import ChatBotModal from "../components/chatbot/ChatBotModal";
+
 
 const sectionVariants = (direction = "left") => {
   const x = direction === "left" ? -40 : 40;
@@ -17,6 +20,8 @@ const sectionVariants = (direction = "left") => {
 const viewport = { once: true, amount: 0.3 };
 
 export default function About() {
+
+const [botOpen, setBotOpen] = useState(false);
   return (
     <div className="about-page">
       <main className="about-shell">
@@ -46,9 +51,17 @@ export default function About() {
                   margin: 0
                 }}
               >
-                Software Engineer building dependable systems & smooth product
-                experiences.
+                Software Engineer 
               </h1>
+              <h3
+                style={{
+                  fontFamily: "var(--font-display)",
+                
+                  margin: 0
+                }}
+              >
+               Well Hello 
+              </h3>
               <p
                 style={{
                   margin: 0,
@@ -58,9 +71,9 @@ export default function About() {
                 }}
               >
                 Based in India, currently working as a Software Development
-                Engineer at Capgemini Technology (Mumbai). I like taking messy
+                Engineer. I like taking messy
                 problems and turning them into clean APIs, stable services, and
-                interfaces people actually enjoy using.
+                interfaces people actually enjoy using. Yes, I sleep a lot and finding ways to stop my doom-scrolling.
               </p>
 
               <div
@@ -144,7 +157,7 @@ export default function About() {
                     fontSize: 24
                   }}
                 >
-                  APS
+                  AS
                 </div>
               </div>
               <div style={{ fontSize: 13, opacity: 0.9 }}>
@@ -154,7 +167,8 @@ export default function About() {
             </motion.div>
           </div>
         </motion.section>
-
+<ChatBotButton onClick={() => setBotOpen(true)} />
+      <ChatBotModal open={botOpen} onClose={() => setBotOpen(false)} />
         <div className="about-divider" />
 
         {/* SECTION 2: HOW I WORK + SNAPSHOT */}
@@ -176,7 +190,7 @@ export default function About() {
                 fontFamily: "var(--font-display)"
               }}
             >
-              From problem → clean system
+              From problem → Think → Act → clean system
             </h2>
             <p
               style={{
@@ -189,7 +203,7 @@ export default function About() {
               I enjoy designing and implementing systems end-to-end: from backend
               services and APIs to frontend experiences and deployment pipelines.
               I care about clean boundaries, observability, and code that other
-              people don’t hate later.
+              people don’t hate later (Yes ! I leave comments on my code!).
             </p>
             <p
               style={{
@@ -227,6 +241,8 @@ export default function About() {
               <li>Clear contracts between services.</li>
               <li>Good logs & metrics for when things go wrong.</li>
               <li>Simple, predictable flows for users and teammates.</li>
+               <li>Anime</li>
+                <li>Sleeping</li>
             </ul>
           </div>
 
@@ -281,7 +297,7 @@ export default function About() {
                   >
                     Comfortable with
                   </div>
-                  <div>Java, Spring Boot, NestJS, React</div>
+                  <div>Java, Spring Boot, NestJS, React, Angular</div>
                 </div>
                 <div
                   style={{
@@ -335,6 +351,7 @@ export default function About() {
                   Worked on a HIPAA-aligned LMS & mentor dashboard used across
                   teams.
                 </li>
+                <li>Just ask me!!</li>
               </ul>
             </div>
           </div>
@@ -351,7 +368,7 @@ export default function About() {
         >
           <div className="about-travel-header">
             <div>
-              <div className="about-section-label">Travel & life</div>
+              <div className="about-section-label">Me & life</div>
               <h2
                 style={{
                   margin: 0,
@@ -359,7 +376,7 @@ export default function About() {
                   fontFamily: "var(--font-display)"
                 }}
               >
-                Travel & moments
+                Just a little insight 
               </h2>
             </div>
             <span
@@ -376,11 +393,11 @@ export default function About() {
           <div className="about-travel-row">
             {[
               {
-                src: "https://picsum.photos/seed/travel-mountain/640/360",
-                label: "Somewhere quiet in the hills"
+                src: "https://res.cloudinary.com/donpfda0m/image/upload/v1764301195/Image_23_ucgnsa.jpg",
+                label: "An irritated foodie"
               },
               {
-                src: "https://picsum.photos/seed/travel-city/640/360",
+                src: "https://res.cloudinary.com/donpfda0m/image/upload/v1764301197/Image_15_rbnloe.jpg",
                 label: "City walks, late evenings"
               },
               {
@@ -388,8 +405,8 @@ export default function About() {
                 label: "Water, reflections, thinking"
               },
               {
-                src: "https://picsum.photos/seed/dev-setup/640/360",
-                label: "Desk & screens — where things ship"
+                src: "https://res.cloudinary.com/donpfda0m/image/upload/v1764301198/Image_13_j8dhik.jpg",
+                label: "My fav views recently"
               }
             ].map((item) => (
               <motion.figure
@@ -635,7 +652,7 @@ export default function About() {
                 opacity: 0.9
               }}
             >
-              I’m not only staring at logs and dashboards (most of the time 🙃):
+              Ohhh Boy! Here is the interesting part. I’m not only staring at logs and dashboards (most of the time 🙃):
             </p>
 
             <div
@@ -650,9 +667,8 @@ export default function About() {
                   🎮 / 🎧 Games & music
                 </div>
                 <div style={{ opacity: 0.9 }}>
-                  Casual gaming, long playlists while coding, and occasionally
-                  falling into YouTube rabbit holes about tech, design, or
-                  storytelling.
+                  Casual gaming,  and occasionally
+                  falling into YouTube rabbit about game lores, strange stuff and what not. 
                 </div>
               </div>
 
@@ -661,8 +677,7 @@ export default function About() {
                   🏃‍♂️ Routines & habits
                 </div>
                 <div style={{ opacity: 0.9 }}>
-                  Trying to balance screen time with walks, gym, and a bit of
-                  journaling — helps keep the brain from running in 100 tabs.
+                  Trying to balance screen time with walks, gym, and somewhat of reading — helps keep the brain from running in 100 tabs. Anyways, try Manga or maybe some Sherlock Holmes Novels. 
                 </div>
               </div>
 
@@ -671,9 +686,8 @@ export default function About() {
                   😅 Honest confession
                 </div>
                 <div style={{ opacity: 0.9 }}>
-                  Often found refactoring variable names at 1 AM and pretending
-                  it’s “just one more fix.”
-                </div>
+                  Well, for that, ping me . Cant leave digital footprint 
+                                  </div>
               </div>
             </div>
           </div>
@@ -719,7 +733,7 @@ export default function About() {
               className="about-chip"
               style={{
                 textDecoration: "none",
-                background: "#e50914",
+                background: "#6fcd21ff",
                 borderColor: "rgba(0,0,0,0.4)",
                 color: "#fff",
                 display: "inline-flex",
@@ -730,7 +744,7 @@ export default function About() {
               ✉️ Email
             </a>
             <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/aryaman-puneet-singh-382a781b7/"
               className="about-chip"
               style={{ textDecoration: "none" }}
               target="_blank"
@@ -739,7 +753,7 @@ export default function About() {
               🔗 LinkedIn
             </a>
             <a
-              href="https://www.linkedin.com"
+              href="https://github.com/Aryaman9Singh"
               className="about-chip"
               style={{ textDecoration: "none" }}
               target="_blank"

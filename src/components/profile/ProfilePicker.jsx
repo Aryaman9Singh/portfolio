@@ -7,7 +7,7 @@ const PROFILES = [
     key: "about",
     title: "About Me",
     subtitle: "Story, values, and contact",
-    img: "/avatars/playground-icon.svg", // you can swap icons later if you want
+    img: "https://res.cloudinary.com/donpfda0m/image/upload/v1764301196/Image_16_dcjw3f.jpg", // you can swap icons later if you want
     accent: "#e50914",
     route: "/about" // special route
   },

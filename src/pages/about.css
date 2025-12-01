@@ -80,8 +80,8 @@
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(to top, rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.2)),
-    url("https://picsum.photos/seed/aryaman-city/1600/640");
+    linear-gradient(to top, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.2)),
+    url("https://res.cloudinary.com/donpfda0m/image/upload/v1764301200/Image_14_dndysx.jpg");
   background-size: cover;
   background-position: center;
   filter: blur(0.6px);
